@@ -1,0 +1,161 @@
+/*--------selectors styling---------*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(63, 63, 63);
+  color: aliceblue;
+}
+
+button {
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: bold;
+  margin: 0.5%;
+  padding: 15px;
+  width: 150px;
+}
+
+#container {
+  text-align: center;
+}
+
+/*--------classes---------*/
+
+.size1 {
+  transform: scale(1);
+}
+
+.size2 {
+  transform: scale(0.85);
+}
+
+.size3 {
+  transform: scale(0.75);
+}
+.rounded {
+  border-radius: 20px;
+}
+
+/*-------set 1-------*/
+
+#btn1 {
+  background-color: green;
+  border: 2px solid green;
+}
+
+#btn1:hover {
+  background-color: rgb(1, 80, 1);
+  border-color: rgb(1, 80, 1);
+}
+
+#btn2 {
+  background-color: red;
+  border: 2px solid red;
+}
+
+#btn2:hover {
+  background-color: rgb(165, 1, 1);
+  border: 2px solid rgb(165, 1, 1);
+}
+
+#btn3 {
+  background-color: blue;
+  border: 2px solid blue;
+}
+
+#btn3:hover {
+  background-color: rgb(2, 2, 177);
+  border: 2px solid rgb(2, 2, 177);
+}
+
+/*----------set 2-----------*/
+
+#btn4 {
+  background-color: orange;
+  border: 2px solid orange;
+}
+
+#btn4:hover {
+  background-color: rgb(161, 105, 0);
+  border-color: rgb(161, 105, 0);
+}
+
+#btn5 {
+  background-color: rgb(219, 219, 2);
+  border: 2px solid rgb(219, 219, 2);
+}
+
+#btn5:hover {
+  background-color: rgb(189, 189, 0);
+  border-color: rgb(189, 189, 0);
+}
+
+#btn6 {
+  background-color: rgb(151, 150, 150);
+  border: 2px solid rgb(151, 150, 150);
+}
+
+#btn6:hover {
+  background-color: rgb(121, 120, 120);
+  border-color: rgb(121, 120, 120);
+}
+
+/*---------set 3----------*/
+
+#btn7 {
+  border: 2px solid green;
+  background-color: transparent;
+}
+
+#btn7:hover {
+  background-color: green;
+}
+
+#btn8 {
+  border: 2px solid red;
+  background-color: transparent;
+}
+
+#btn8:hover {
+  background-color: red;
+}
+
+#btn9 {
+  border: 2px solid blue;
+  background-color: transparent;
+}
+
+#btn9:hover {
+  background-color: blue;
+}
+
+/*----------set 4---------*/
+
+#btn10 {
+  border: 2px solid orange;
+  background-color: transparent;
+}
+
+#btn10:hover {
+  background-color: orange;
+}
+
+#btn11 {
+  border: 2px solid rgb(219, 219, 2);
+  background-color: transparent;
+}
+
+#btn11:hover {
+  background-color: rgb(219, 219, 2);
+}
+
+#btn12 {
+  border: 2px solid rgb(151, 150, 150);
+  background-color: transparent;
+}
+
+#btn12:hover {
+  background-color: rgb(151, 150, 150);
+}
